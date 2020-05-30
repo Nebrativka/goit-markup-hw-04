@@ -116,6 +116,12 @@
 
 /* OUR TEAM */
 
+.svg-team {
+    width: 44px;
+    height: 44px;
+    outline: solid 1px turquoise;
+}
+
 .team-section {
     background-color: #f5f4fa;
 }
