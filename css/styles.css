@@ -6,6 +6,20 @@
 
 /* MAIN */
 
+.phone {
+    color: #757575
+}
+
+.mail {
+    display: inline-block;
+    color: #757575;
+}
+
+
+/* .phone:hover {
+    fill: red;
+}  */
+
 .section {
     padding-bottom: 94px;
     padding-top: 94px;
@@ -116,10 +130,21 @@
 
 /* OUR TEAM */
 
-.svg-team {
+.social-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    margin-left: 35px;
+    margin-right: 36px;
+}
+
+.social-list-link {
     width: 44px;
     height: 44px;
-    outline: solid 1px turquoise;
+    outline: 1px solid teal;
+    background-size: 20px;
 }
 
 .team-section {

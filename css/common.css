@@ -75,6 +75,7 @@ html {
 .link-list:hover,
 .link-list:focus {
     color: var(--text-color-accent);
+    fill: var(--text-color-accent);
 }
 
 .nav-link {
