@@ -578,6 +578,11 @@
 .title-go {
     display: block;
     margin-bottom: 21px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .join {
