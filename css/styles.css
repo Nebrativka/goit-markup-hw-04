@@ -7,12 +7,16 @@
 /* MAIN */
 
 .phone {
-    color: #757575
+    color: #757575;
+    /* height: 14.94px; */
+    margin-right: 10px;
 }
 
 .mail {
     display: inline-block;
     color: #757575;
+    /* height: 11.2px; */
+    margin-right: 10px;
 }
 
 .section {
@@ -186,10 +190,12 @@
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    border: none;
 }
 
 .button:hover {
     background-color: var(--text-color-accent);
+    border: none;
 }
 
 .hero-button {
@@ -348,6 +354,28 @@
     margin-bottom: 0;
     list-style-type: none;
     padding-left: 0;
+}
+
+.size-customers {
+    width: 170px;
+    height: 90px;
+    /* background-color: teal; */
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+    padding-left: 56px;
+    padding-right: 55px;
+}
+
+.size-customers:hover {
+    background-color: #2196F3;
+}
+
+.color:hover {
+    color: white;
+    fill: white;
 }
 
 
