@@ -60,7 +60,7 @@
     margin-bottom: 0;
     list-style-type: none;
     padding-left: 0;
-    outline: solid 1px tomato;
+    /* outline: solid 1px tomato; */
 }
 
 .antenna::before {
@@ -73,7 +73,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    outline: solid 1px teal;
+    /* outline: solid 1px teal; */
 }
 
 .clock::before {
@@ -86,7 +86,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    outline: solid 1px teal;
+    /* outline: solid 1px teal; */
 }
 
 .computer::before {
@@ -99,7 +99,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    outline: solid 1px teal;
+    /* outline: solid 1px teal; */
 }
 
 .kos::before {
@@ -112,7 +112,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    outline: solid 1px teal;
+    /* outline: solid 1px teal; */
 }
 
 
