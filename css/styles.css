@@ -139,6 +139,10 @@
     fill: #AFB1B8
 }
 
+.ftr-icon {
+    fill: white;
+}
+
 .btn-icon:hover {
     fill: #FFFFFF;
 }
@@ -151,6 +155,20 @@
     height: 44px;
     border-radius: 50%;
     color: teal;
+}
+
+.ftr-ic {
+    padding: 0;
+    background-color: #44454E;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: teal;
+}
+
+.ftr-ic:hover {
+    background-color: #2196F3;
 }
 
 .btn-ic:hover {
@@ -494,4 +512,65 @@
     line-height: 1.56;
     /* or 156% */
     letter-spacing: 0.03em;
+}
+
+
+/* footer */
+
+.footer-flex {
+    display: flex;
+}
+
+.footer-logo {
+    /* display: block; */
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #2F303A;
+    color: #ffffff;
+    padding-top: 48px;
+    padding-bottom: 88px;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.coop {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.logo-social-network {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    padding-bottom: 24px;
 }
