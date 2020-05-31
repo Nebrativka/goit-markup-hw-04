@@ -574,3 +574,12 @@
     justify-content: center;
     padding-bottom: 24px;
 }
+
+.title-go {
+    display: block;
+    margin-bottom: 21px;
+}
+
+.join {
+    margin-left: 69px;
+}
